@@ -1,0 +1,242 @@
+/* TaskList.css */
+.task-list-container {
+  padding: 20px;
+}
+
+.add-task-link {
+  text-decoration: none;
+}
+
+.add-task-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-task-button:hover {
+  background-color: #2980b9;
+}
+
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.task-card-link {
+  width: 250px;
+  min-height: 150px;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  transition: background-color 0.3s;
+}
+
+.task-card-link:hover {
+  background-color: #e0e0e0;
+}
+
+.task-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.task-details {
+  font-size: 14px;
+}
+
+.task-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.task-description {
+  margin-bottom: 5px;
+  max-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.task-due-date {
+  font-style: italic;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 600px) {
+  .task-card-link {
+    width: 100%;
+  }
+}
+
+
+
+
+
+  /*
+  editTask COmponent
+  */
+  .edit-task {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  .update-button {
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  .edit-task h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  /*
+  Add Task Component
+  */
+  /* Add your CSS for styling */
+.add-task-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-task-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.task-form .form-group {
+  margin-bottom: 10px;
+}
+
+.task-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.task-form .form-group input,
+.task-form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-form .add-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-form .add-button:hover {
+  background-color: #218838;
+}
+
+.back-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+.add-task-container .add-button:hover {
+  background-color: #218838;
+}
+
+/*task detail*/
+.task-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.task-details-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-details-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.task-details-description {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.task-details-due-date {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.edit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
