@@ -16,7 +16,7 @@ CSS
 Node.js
 Express.js
 MongoDB
-                        Running the Application
+                        
 To run the backend server:
 
 Navigate to the 'backend' folder in your terminal.
