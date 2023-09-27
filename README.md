@@ -19,7 +19,7 @@ MongoDB
                         
 To run the backend server:
 
-Navigate to the 'backend' folder in your terminal.
+Navigate to the 'back' folder in your terminal.
 Run the command: nodemon server
 To run the frontend server:
 
